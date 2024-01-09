@@ -84429,7 +84429,7 @@ A.kc(null,!0,new A.aja(),a0,null,!0,a1)
 q=4
 a0=t.N
 s=7
-return A.a_(A.a0e(null).Uo("http://143.198.70.128:3000/auth/login",A.aE(["email",b.a.a,"password",a.a.a,"userDeviceId","userDeviceIDFromWeb"],a0,a0),new A.ajb(o),a1),$async$kZ)
+return A.a_(A.a0e(null).Uo("http://127.0.0.1:3000/auth/login",A.aE(["email",b.a.a,"password",a.a.a,"userDeviceId","userDeviceIDFromWeb"],a0,a0),new A.ajb(o),a1),$async$kZ)
 case 7:m=a5
 l=J.bJ(J.aP(m.a,"savedUser"))
 k=J.bJ(J.aP(m.a,"token"))
@@ -84586,7 +84586,7 @@ l=t.z
 A.kc(null,!0,new A.ajV(),j,null,!0,l)
 q=3
 s=6
-return A.a_(A.a0e(null).alB(0,"http://143.198.70.128:3000/reminder",null,null,null,A.av5("GET",A.arI(A.aE(["Content-Type","application/json","Authorization","Bearer "+A.h(o.d)],t.N,l))),null,l),$async$zO)
+return A.a_(A.a0e(null).alB(0,"http://127.0.0.1:3000/reminder",null,null,null,A.av5("GET",A.arI(A.aE(["Content-Type","application/json","Authorization","Bearer "+A.h(o.d)],t.N,l))),null,l),$async$zO)
 case 6:n=b
 m=n.c
 A.bI("status code: "+A.h(m))
@@ -84700,7 +84700,7 @@ f=o.f
 e=o.w
 d=t.N
 s=6
-return A.a_(A.a0e(null).Uo("http://143.198.70.128:3000/auth/register",A.aE(["firstname",a.a.a,"lastname",g.a.a,"number",b,"email",f.a.a,"password",e.a.a,"userDeviceId","userDeviceIDFromWeb","referralCode",o.x.a.a],d,d),new A.akJ(o),h),$async$vP)
+return A.a_(A.a0e(null).Uo("http://127.0.0.1:3000/auth/register",A.aE(["firstname",a.a.a,"lastname",g.a.a,"number",b,"email",f.a.a,"password",e.a.a,"userDeviceId","userDeviceIDFromWeb","referralCode",o.x.a.a],d,d),new A.akJ(o),h),$async$vP)
 case 6:n=a2
 m=J.bJ(J.aP(n.a,"message"))
 l=n.e.k(0)
@@ -84872,7 +84872,7 @@ k=o.d
 i=o.e
 h=t.N
 s=6
-return A.a_(A.a0e(null).Up("http://143.198.70.128:3000/reminder",A.aE(["title",k.a.a,"description",i.a.a,"expiryDate",o.y],h,t.ob),new A.am3(o),A.arI(A.aE(["Content-Type","application/json","Authorization","Bearer "+A.h(o.w)],h,j)),j),$async$Ah)
+return A.a_(A.a0e(null).Up("http://127.0.0.1:3000/reminder",A.aE(["title",k.a.a,"description",i.a.a,"expiryDate",o.y],h,t.ob),new A.am3(o),A.arI(A.aE(["Content-Type","application/json","Authorization","Bearer "+A.h(o.w)],h,j)),j),$async$Ah)
 case 6:n=b
 J.bJ(J.aP(n.a,"message"))
 J.bJ(J.aP(n.a,"savedReminder"))
